@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <title>Offers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+         .offers-section {
+            background-color: #ffebeb;
+            padding: 50px 0;
+        }
+
+        .offers-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .offers-header { 
+            margin-bottom: 40px;
+            background-color: #557863;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 5px 220px;
+            margin: 40px auto;
+            max-width: 750px;
+            border-radius: 8px;
+        }
+
+        .offers-header h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+        }
+
+        .offers-header p {
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+
+        /* Styling for Offer Cards */
+ /* .offer-cards {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px;
+}  */
+
+.offer-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.offer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.offer-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.offer-card h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+.offer-card p {
+    font-size: 1.3rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.offer-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.offer-card .btn:hover {
+    background-color: #338033;
+}
+.offer-footer{
+    margin-top: 80px;
+    color: #ffffff;
+    background-color: #557863;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <img src="logogro.png" alt="New Leaf Grocery Logo">
+        <h1>New Leaf Grocery</h1>
+    </div>
+    <div class="header-options">
+        <input type="text" placeholder="Search for products" class="search-bar">
+        <button class="search-button"><i class="fas fa-search"></i></button>
+        <a href="#" class="icon-link"><i class="fa-solid fa-cart-shopping" style="color: white;"></i></a>
+        <a href="#" class="icon-link"><i class="fa-solid fa-user-plus" style="color: white;"></i></a>
+    </div>
+</header>
+<nav>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Categories</a></li>
+        <li><a href="offer.html">Offers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+</nav>
+<br>
+<section class="offers-section">
+    <div class="offers-container">
+        <div class="offers-header">
+            <h1>Special Offers</h1>
+            <p>Check out our latest offers and promotions.</p>
+        </div>
+        <div class="offer-cards">
+            <div class="offer-card">
+                <img src="o1.jpg" alt="Offer 1">
+                <h2>50% Off Fresh Fruits</h2>
+                <p>Get a 50% discount on all fresh fruits. Limited time offer!</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="offer-card">
+                <img src="o2.jpg" alt="Offer 2">
+                <h2>Buy 3 Get 1 Free</h2>
+                <p>Buy three, get one free on selected items. Don't miss out!</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="offer-card">
+                <img src="o3.jpg" alt="Offer 3">
+                <h2>20% Off Organic Vegetables</h2>
+                <p>Enjoy 20% off on a wide range of organic vegetables.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <!-- Add more offer cards here -->
+            <div class="offer-card">
+                <img src="o4.jpg" alt="Offer 4">
+                <h2>Special Combo Deal</h2>
+                <p>Get a combo deal on groceries and save big!</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="offer-card">
+                <img src="o5.jpg" alt="Offer 5">
+                <h2>Discounted Dairy Products</h2>
+                <p>Stock up on dairy products with our exclusive discounts.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+        <div class="offer-footer">
+            <h1>Stay tuned for more offers!!!</h1>
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="logogro.png" alt="Company Logo">
+            <div class="footer-text">
+                <h1>New Leaf Grocery</h1>
+                <h3>Biratchowk, Morang</h3>
+            </div>
+        </div>
+        <br>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are your premier destination for quality groceries and fresh product with a commitment to
+                    excellence and customer satisfaction. We provide a wide range of products to meet your everyday
+                    needs. Experience the difference at New Leaf Grocery.</p>
+            </div>
+            <br>
+            <div class="footer-section">
+                <h3>Contacts</h3>
+                <p><i class="fa-solid fa-envelope"></i> newleafgrocery@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +977 9807000038</p>
+            </div>
+            <br>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook" style="color: rgb(19, 155, 240);"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="color: rgb(19, 155, 240);"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="color: rgb(226, 97, 38);"></i></a>
+            </div>
+        </div>
+        <br>
+        <div class="footer-end">
+            <p>&copy; 2023 New Leaf Grocery | All rights reserved.</p>
+        </div>
+    </footer>
+    <a href="#" class="top"><i class="fa-solid fa-up-long" style="color: white;"></i></a>
+</body>
+</html>

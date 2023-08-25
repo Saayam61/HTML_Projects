@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <title>Categories</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .slogan{
+            position: relative;
+    text-align: center;
+    margin: 80px auto;
+    background-color: #557863;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(43, 255, 0, 0.2);
+    overflow: hidden;
+    max-width: 1130px;
+        }
+        .slogan h1{
+            font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+        }
+        .slogan p{
+            font-size: 1.5rem;
+    color: #fff;
+        }
+        /* Categories Section */
+        .categories-section {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffebeb;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .categories-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            align-items: start;
+        }
+
+        .category-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .category-card img {
+            max-width: 100%;
+            border-radius: 8px;
+            
+        }
+
+        .category-card h2 {
+            font-size: 1.5rem;
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .category-card p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logogro.png" alt="New Leaf Grocery Logo">
+            <h1>New Leaf Grocery</h1>
+        </div>
+        <div class="header-options">
+            <input type="text" placeholder="Search for products" class="search-bar">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+            <a href="#" class="icon-link"><i class="fa-solid fa-cart-shopping" style="color: white;"></i></a>
+            <a href="#" class="icon-link"><i class="fa-solid fa-user-plus" style="color: white;"></i></a>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="category.html">Categories</a></li>
+            <li><a href="offer.html">Offers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <br>
+    <section class="categories-section">
+        <div class="slogan">
+        <h1>Categories</h1>
+        <p>Unlock the Flavors Within: Navigate Through Our Culinary Realms</p>
+        </div>
+        <div class="categories-container">
+            <div class="category-card">
+                <img src="c1.jpg" alt="Fruits Category">
+                <h2>Fruits</h2>
+                <p>Explore a variety of fresh and delicious fruits.</p>
+            </div>
+            <div class="category-card">
+                <img src="c2.jpg" alt="Vegetables Category">
+                <h2>Vegetables</h2>
+                <p>Discover a wide selection of nutritious vegetables.</p>
+            </div>
+            <div class="category-card">
+                <img src="c3.jpg" alt="Dairy Category">
+                <h2>Dairy</h2>
+                <p>Find dairy products that are both healthy and tasty.</p>
+            </div>
+            <!-- Add more category cards here -->
+
+<div class="category-card">
+    <img src="c4.jpg" alt="Meat Category">
+    <h2>Meat & Poultry</h2>
+    <p>Explore our premium selection of fresh meats and poultry.</p>
+</div>
+<div class="category-card">
+    <img src="c5.jpg" alt="Seafood Category">
+    <h2>Seafood</h2>
+    <p>Dive into the finest selection of seafood from around the world.</p>
+</div>
+<div class="category-card">
+    <img src="c6.jpg" alt="Bakery Category">
+    <h2>Bakery</h2>
+    <p>Indulge in freshly baked goods and artisanal breads.</p>
+</div>
+<div class="category-card">
+    <img src="c7.jpg" alt="Beverages Category">
+    <h2>Beverages</h2>
+    <p>Quench your thirst with a wide range of refreshing beverages.</p>
+</div>
+<div class="category-card">
+    <img src="c8.jpg" alt="Snacks Category">
+    <h2>Snacks</h2>
+    <p>Discover an assortment of savory and sweet snacks for any craving.</p>
+</div>
+<div class="category-card">
+    <img src="c9.jpg" alt="Canned Foods Category">
+    <h2>Canned Foods</h2>
+    <p>Convenient and versatile canned foods for quick meals.</p>
+</div>
+<div class="category-card">
+    <img src="c10.jpg" alt="Condiments Category">
+    <h2>Condiments & Sauces</h2>
+    <p>Enhance your dishes with a variety of flavorful condiments and sauces.</p>
+</div>
+<div class="category-card">
+    <img src="c11.jpg" alt="Pantry Staples Category">
+    <h2>Pantry Staples</h2>
+    <p>Stock up your pantry with essential ingredients for everyday cooking.</p>
+</div>
+<div class="category-card">
+    <img src="organic.jpg" alt="Organic & Natural Category">
+    <h2>Organic & Natural</h2>
+    <p>Explore our organic and natural products for a healthier lifestyle.</p>
+</div>
+<div class="category-card">
+    <img src="household.jpg" alt="Household Essentials Category">
+    <h2>Household Essentials</h2>
+    <p>Find a range of household products for your daily needs.</p>
+</div>
+<div class="category-card">
+    <img src="personal-care.jpg" alt="Personal Care Category">
+    <h2>Personal Care</h2>
+    <p>Explore a range of personal care products for your well-being.</p>
+</div>
+<div class="category-card">
+    <img src="baby.jpg" alt="Baby & Kids Category">
+    <h2>Baby & Kids</h2>
+    <p>Discover products for your little ones, from baby care to kids' snacks.</p>
+</div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="logogro.png" alt="Company Logo">
+            <div class="footer-text">
+                <h1>New Leaf Grocery</h1>
+                <h3>Biratchowk, Morang</h3>
+            </div>
+        </div>
+        <br>
+
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are your premier destination for quality groceries and fresh product with a commitment to
+                    excellence and customer satisfaction. We provide a wide range of products to meet your everyday
+                    needs. Experience the difference at New Leaf Grocery.</p>
+            </div>
+            <br>
+            <div class="footer-section">
+                <h3>Contacts</h3>
+                <p><i class="fa-solid fa-envelope"></i> newleafgrocery@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +977 9807000038</p>
+            </div>
+            <br>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook" style="color: rgb(19, 155, 240);"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="color: rgb(19, 155, 240);"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="color: rgb(226, 97, 38);"></i></a>
+            </div>
+        </div>
+        <br>
+        <div class="footer-end">
+            <p>&copy; 2023 New Leaf Grocery | All rights reserved.</p>
+        </div>
+    </footer>
+    <a href="#" class="top"><i class="fa-solid fa-up-long" style="color: white;"></i></a>
+</body>
+</html>
